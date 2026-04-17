@@ -1,0 +1,21 @@
+# University of Mumbai - VEC102 Audit Security Protocol
+# Dependency Directories
+node_modules/
+client/node_modules/
+dist/
+client/dist/
+
+# Environment Secrets (DO NOT LEAK ZKP HASHES)
+.env
+.env.local
+.env.production
+
+# Logs and System Artifacts
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+
+# IDE Configurations
+.vscode/
+.idea/

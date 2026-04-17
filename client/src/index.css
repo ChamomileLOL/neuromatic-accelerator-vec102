@@ -1,0 +1,13 @@
+:root {
+  background-color: #050505;
+  color: #00ff41; /* University Matrix Green */
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}

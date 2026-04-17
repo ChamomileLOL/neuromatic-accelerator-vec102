@@ -1,0 +1,29 @@
+{
+  "name": "neuromatic-accelerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "tsx src/server.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.6.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "tsx": "^4.21.0"
+  }
+}
